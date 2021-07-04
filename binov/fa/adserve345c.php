@@ -1,0 +1,1 @@
+document.write ( unescape("%3Ca%20rel%3D%22nowfollow%22%20href%3D%22https%3A%2F%2Fbinov.net%2Ffa%2Fadtrack.php%3Fb%3D7%22%20target%3D%22_blank%22%20%3E%3Cimg%20src%3D%22https%3A%2F%2Fbinov.net%2Ffa%2Fdata%2Fdbimg%2F7banner%2F7_0.gif%22%20width%3D%22720%22%20height%3D%22120%22%20%2F%3E%3C%2Fa%3E") );
