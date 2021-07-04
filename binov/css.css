@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image:url(img/back.png);
+	color:white;
+	}
+.logo {margin-top:20px;
+margin-bottom:20px;}
+
+.screenmate {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background: url('img/screenmate.png') no-repeat center;
+        height: 170px;
+        width: 240px; 
+	z-index: 1;
+}
+.screenmate-text { 
+	text-shadow: none;
+	position: absolute;
+	left: 20px;
+	top: 15px;
+	height: 42px;
+	width: 122px;
+	overflow: hidden;
+	text-align: left;
+	color: #000;
+	font-size: 9.5pt;
+	line-height: 10pt;
+}
+.bannerWrapper {
+    display: flex;
+    margin: 5px auto;
+}
+.bannerCollection {
+    display: flex;
+}
+.bannerCollection .bannerUnit {
+    padding: 0 3px;
+}
+.bannerUnit img {
+    max-width: 100%;
+}
