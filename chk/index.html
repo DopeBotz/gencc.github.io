@@ -1,64 +1,44 @@
 <!DOCTYPE html><html lang="en">
-<!-- Mirrored from binlist.net/ by HTTrack Website Copier/3.x [XR&CO'2017], Sun, 04 Jul 2021 04:01:50 GMT -->
+<!-- Mirrored from Bestccgen.me/ by HTTrack Website Copier/3.x [XR&CO'2017], Sun, 04 Jul 2021 04:01:50 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><meta name="apple-mobile-web-app-status-bar-style" content="white"><meta name="apple-mobile-web-app-capable" content="yes"><title>Free BIN/IIN Lookup Web Service - binlist.net</title><link rel="shortcut icon" type="image/png" href="favicon.png"><link rel="stylesheet" href="index.css"><link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css" integrity="sha256-3YM6A3pH4QFCl9WbSU8oXF5N6W/2ylvW0o2g+Z6TmLQ=" crossorigin="anonymous"><script src="index.js" defer></script></head><body><a href="../external.html?link=https://www.clearhaus.com/"><img src="clearhaus-top-banner.png"></a><h1 class="logo">Binlist.net</h1><section class="lookup"><form><input class="iin" type="search" value="4571 7360" autofocus><p>Enter the first digits of a card number (BIN/IIN)</p></form><ul class="result"><li class="scheme"><h2>Scheme / network</h2><p>Visa</p></li><li class="brand"><h2>Brand</h2><p>Visa/Dankort</p></li><li class="number"><h2>Card number</h2><ul><li class="length"><h3>Length</h3><p>16</p></li><li class="luhn"><h3>LUHN</h3><ol><li class="yes selected">Yes</li><li class="no">No</li></ol></li></ul></li><li class="type"><h2>Type</h2><ol><li class="selected" data-value="debit">Debit</li><li data-value="credit">Credit</li></ol></li><li class="prepaid"><h2>Prepaid</h2><ol><li class="yes">Yes</li><li class="no selected">No</li></ol></li><li class="country"><h2>Country</h2><p class="name">🇩🇰 Denmark</p><p class="geo">(latitude: <span class="latitude">56</span>, longitude: <span class="longitude">10</span>)</p></li><li class="bank"><h2>Bank</h2><p class="name">Jyske Bank, Hjørring</p><p class="url"><a href="../external.html?link=https://jyskebank.dk/">www.jyskebank.dk</a></p><p class="phone">+4589893300</p></li></ul></section><h2>API</h2><h3>curl / https</h3><pre><code class="hljs">curl -H <span class="hljs-string">"Accept-Version: 3"</span> <span class="hljs-string">"https://lookup.binlist.net/45717360"</span>
-</code></pre><pre><code class="hljs secondary">{
-  "<span class="hljs-attribute">number</span>": <span class="hljs-value">{
-    "<span class="hljs-attribute">length</span>": <span class="hljs-value"><span class="hljs-number">16</span></span>,
-    "<span class="hljs-attribute">luhn</span>": <span class="hljs-value"><span class="hljs-literal">true</span>
-  </span>}</span>,
-  "<span class="hljs-attribute">scheme</span>": <span class="hljs-value"><span class="hljs-string">"visa"</span></span>,
-  "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"debit"</span></span>,
-  "<span class="hljs-attribute">brand</span>": <span class="hljs-value"><span class="hljs-string">"Visa/Dankort"</span></span>,
-  "<span class="hljs-attribute">prepaid</span>": <span class="hljs-value"><span class="hljs-literal">false</span></span>,
-  "<span class="hljs-attribute">country</span>": <span class="hljs-value">{
-    "<span class="hljs-attribute">numeric</span>": <span class="hljs-value"><span class="hljs-string">"208"</span></span>,
-    "<span class="hljs-attribute">alpha2</span>": <span class="hljs-value"><span class="hljs-string">"DK"</span></span>,
-    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"Denmark"</span></span>,
-    "<span class="hljs-attribute">emoji</span>": <span class="hljs-value"><span class="hljs-string">"🇩🇰"</span></span>,
-    "<span class="hljs-attribute">currency</span>": <span class="hljs-value"><span class="hljs-string">"DKK"</span></span>,
-    "<span class="hljs-attribute">latitude</span>": <span class="hljs-value"><span class="hljs-number">56</span></span>,
-    "<span class="hljs-attribute">longitude</span>": <span class="hljs-value"><span class="hljs-number">10</span>
-  </span>}</span>,
-  "<span class="hljs-attribute">bank</span>": <span class="hljs-value">{
-    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"Jyske Bank"</span></span>,
-    "<span class="hljs-attribute">url</span>": <span class="hljs-value"><span class="hljs-string">"www.jyskebank.dk"</span></span>,
-    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"+4589893300"</span></span>,
-    "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"Hjørring"</span>
-  </span>}
-</span>}
-</code></pre><p>Fields may contain <code>null</code> values which suggests that
-cards may be one or the other.</p><p>If no matching cards are found an HTTP <code>404</code> response
-is returned.</p><h3>Node.js / npm / browser(ify)</h3><pre><code class="hljs">npm install binlookup
-</code></pre><pre><code class="hljs secondary"><span class="hljs-keyword">var</span> lookup = <span class="hljs-built_in">require</span>(<span class="hljs-string">'binlookup'</span>)()
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><meta name="apple-mobile-web-app-status-bar-style" content="white"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-<span class="hljs-comment">// callback</span>
-lookup(<span class="hljs-string">'45717360'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"> err, data </span>)</span>{
-  <span class="hljs-keyword">if</span> (err)
-    <span class="hljs-keyword">return</span> <span class="hljs-built_in">console</span>.error(err)
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="https://propaste.xyz/assets/css/fontello.css" type="text/css">
+<link rel="stylesheet" href="https://propaste.xyz/assets/css/fonts.css" type="text/css">
+<link rel="stylesheet" href="https://" type="text/css">
+<link rel="stylesheet" href="https://propaste.xyz/assets/css/icon_effects.html" type="text/css">
+<link rel="stylesheet" href="https://propaste.xyz/assets/css/select2.css" type="text/css">
+<link rel="stylesheet" href="https://propaste.xyz/assets/css/select2-bootstrap.css" type="text/css">
+<link rel="stylesheet/less" href="https://propaste.xyz/assets/css/master.less" type="text/css">
+<link rel="stylesheet" href="https://propaste.xyz/assets/css/theme-pygments.css" type="text/css">
+<link rel="stylesheet" href="https://propaste.xyz/assets/css/theme-ansi.css" type="text/css">
+<link rel="stylesheet" href="https://propaste.xyz/assets/css/telegram-button.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://propaste.xyz/assets/js/less.js" type="text/javascript"></script>
+<script src="https://propaste.xyz/assets/js/jquery-2.0.3.js" type="text/javascript"></script>
+<script src="https://propaste.xyz/assets/js/select2.js" type="text/javascript"></script>
+<script src="https://propaste.xyz/assets/js/paste.jQuery.js" type="text/javascript"></script>
+<script src="https://propaste.xyz/assets/js/bootstrap.js" type="text/javascript"></script>
+<script src="https://propaste.xyz/assets/js/mozcookies.js" type="text/javascript"></script>
+<script src="https://propaste.xyz/assets/js/application.js" type="text/javascript"></script>
 
-  <span class="hljs-built_in">console</span>.log(data)
-})
+<title>Free BIN/IIN Lookup Web Service - Bestccgen.me</title><link rel="shortcut icon" type="image/png" href="favicon.png"><link rel="stylesheet" href="index.css"><link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css" integrity="sha256-3YM6A3pH4QFCl9WbSU8oXF5N6W/2ylvW0o2g+Z6TmLQ=" crossorigin="anonymous"><script src="index.js" defer></script></head><body><h1 class="logo">Bestccgen.me</h1><center><iframe data-aa="1691526" src="//ad.a-ads.com/1691526?size=320x100" scrolling="no" style="width:320px; height:100px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe></center><section class="lookup"><form><input class="iin" type="search" value="4571 7360" autofocus><p>Enter the first digits of a card number (BIN/IIN)</p></form><ul class="result"><li class="scheme"><h2>Scheme / network</h2><p>Visa</p></li><li class="brand"><h2>Brand</h2><p>Visa/Dankort</p></li><li class="number"><h2>Card number</h2><ul><li class="length"><h3>Length</h3><p>16</p></li><li class="luhn"><h3>LUHN</h3><ol><li class="yes selected">Yes</li><li class="no">No</li></ol></li></ul></li><li class="type"><h2>Type</h2><ol><li class="selected" data-value="debit">Debit</li><li data-value="credit">Credit</li></ol></li><li class="prepaid"><h2>Prepaid</h2><ol><li class="yes">Yes</li><li class="no selected">No</li></ol></li><li class="country"><h2>Country</h2><p class="name">🇩🇰 Denmark</p><p class="geo">(latitude: <span class="latitude">56</span>, longitude: <span class="longitude">10</span>)</p></li><li class="bank"><h2>Bank</h2><p class="name">Jyske Bank, Hjørring</p><p class="url"><a href="../external.html?link=https://jyskebank.dk/">www.jyskebank.dk</a></p><p class="phone">+4589893300</p></li></ul></section>
 
-<span class="hljs-comment">// promise</span>
-lookup(<span class="hljs-string">'45717360'</span>).then(<span class="hljs-built_in">console</span>.log, <span class="hljs-built_in">console</span>.error)
-</code></pre><ul><li><a href="../external.html?link=https://www.npmjs.com/package/binlookup">npm package</a></li><li><a href="../external.html?link=https://github.com/paylike/binlookup">Source code</a></li></ul><h3>Usage</h3><h4>Limits</h4><p>Requests are throttled at 10 per minute with a burst allowance of
-10. If you hit the speed limit the service will return a
-<a href="../external.html?link=https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429">429</a> http status code.</p><p>Need more? Get unlimited access at $ 0.001/request by reaching out to <a href="mailto:contact@binlist.net">contact@binlist.net</a>.</p><h4>Uptime</h4><p>See our <a href="../external.html?link=https://status.binlist.net/">status page</a>
-(third party operated) for live uptime stats.</p><h4>Updates</h4><p>For important updates on the API please <a href="../external.html?link=https://eepurl.com/cNddUP">subscribe here</a>.</p><h3>Related projects and resources</h3><ul><li><a href="../external.html?link=https://github.com/paylike/luhn">LUHN check/calculate</a></li><li><a href="../external.html?link=https://github.com/srcagency/iso-3166-1-codes">ISO 3166-1 codes</a></li><li><a href="../external.html?link=https://github.com/srcagency/country-currencies">Country currencies</a></li><li><a href="../external.html?link=https://github.com/srcagency/country-coords">Country coordinates</a></li><li><a href="../external.html?link=https://github.com/srcagency/country-to-emoji-flag">Country emoji flags</a></li></ul><h2>About</h2><p>binlist.net is a public web service for looking up credit and
-debit card meta data.</p><h3>IIN / BIN</h3><p>The first 6 or 8 digits of a payment card number (credit cards,
-debit cards, etc.) are known as the
-<a href="../external.html?link=https://en.wikipedia.org/wiki/Payment_card_number#Issuer_identification_number_.28IIN.29">Issuer Identification Numbers (IIN)</a>,
-previously known as Bank Identification Number (BIN).
-These identify the institution that issued the card to the card
-holder.</p><h3>Data</h3><p>The data backing this service is not a table of card number
-prefixes. That would be unreliable and provide you with too little
-information. The data is sourced from multiple places, filtered,
-prioritized, and combined to form the data you eventually see.
-Some data is formed based on assumptions we make by looking at
-adjoining cards.</p><p>Although this service is very accurate, don't expect it to be
-perfect.</p><h4>Dataset downloads, caching and scraping</h4><p>For the reasons above, we do not provide a static database dump; it is either
-terribly imprecise or you would need specialized software to compile the
-results.</p><h3>Got corrections?</h3><p>We welcome pull requests on <a href="../external.html?link=https://github.com/binlist/data">github.com/binlist/data</a>.</p></body>
-<!-- Mirrored from binlist.net/ by HTTrack Website Copier/3.x [XR&CO'2017], Sun, 04 Jul 2021 04:01:54 GMT -->
+<script src="https:///cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https:///cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"
+        integrity="sha256-/ijcOLwFf26xEYAjW75FizKVo5tnTYiQddPZoLUHHZ8=" crossorigin="anonymous"></script>
+    <script src="https:///cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+    <script defer src="js/script.js"></script>
+        <script defer src="js/bin_generator.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>$(function(){$('.df-hide').on('click',function(){$('.demo-float').fadeOut(170);});});</script>
+<script type="text/javascript">(function() {var script=document.createElement("script");script.type="text/javascript";script.async =true;script.src="//telegram.im/widget-button/index.php?id=@MadPremium";document.getElementsByTagName("head")[0].appendChild(script);})();</script>
+<div class="demo-float">
+<span class="df-hide" style="color: #a61f1f;"><i class="fa fa-times"></i></span>
+<div class="df-logo"><img border="0" data-original-height="10" data-original-width="10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png"></div>
+<h3>Telegram Channel</h3>
+<p>🔥 Join <b>@MadBinners</b> Telegram Channel For More Premium Bins 💳</p>
+<a href="https://t.me/joinchat/EVnitPxtBGYzNWZl" target="_blank"><i class="fa fa-telegram"></i> Join Telegram Channel</a>
 </html>
